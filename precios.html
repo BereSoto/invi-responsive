@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8"><!--soporta caracteres en español-->
+  <title>Invie - tus mejores gitarras!!</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat 400,700|Allerta" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+</head>
+<body class="precios">
+  <header id="header" class="header background"><!-- encabezado -->
+    <div class="contenedor">
+      <figure class="logotipo"><!--logotipo-->
+        <img src="assets/images/invie.png" width="186" height="60" alt="invie_logotipo" >
+      </figure>
+      <span class=" burguer-button icon-menu"id="burguer-button"></span>
+      <nav class="menu" id="menu"><!--menus-->
+        <ul><!--etiqueta de listas -->
+          <li>
+            <a href="index.html">Home</a><!-- ancla-->
+          </li><!--los elementos de la lista   -->
+          <li>
+            <a href="index.html#guitarras">Guitarras</a>
+          </li>
+          <li>
+            <a href="precios.html">Precios</a>
+          </li>
+          </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="table">
+    <div class="contenedor">
+      <table>
+        <thead>
+        <tr>
+          <th>Modelo</th>
+          <th>Precio</th>
+          <th>Descripción</th>
+          <th>Modelo</th>
+          <th>Precio</th>
+          <th>Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Invie Classic</td>
+          <td>$100000</td>
+          <td>Una guitarra muy pro</td>
+          <td>Invie Classic</td>
+          <td>$100000</td>
+          <td>Una guitarra muy pro</td>
+        </tr>
+        <tr>
+          <td>Invie Classic</td>
+          <td>$100000</td>
+          <td>Una guitarra muy pro</td>
+          <td>Invie Classic</td>
+          <td>$100000</td>
+          <td>Una guitarra muy pro</td>
+        </tr>
+        <tr>
+          <td>Invie Classic</td>
+          <td>$100000</td>
+          <td>Una guitarra muy pro</td>
+          <td>Invie Classic</td>
+          <td>$100000</td>
+          <td>Una guitarra muy pro</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  </section>
+  <footer class="footer">
+    <div class="contenedor">
+      <div class="contacto">
+        <img src="assets/images/invie-white.png" alt="logotipo blanco">
+        <a href="tel:+5556304095"><strong>Telefono</strong> <span>34091278</span></a>
+        <a href="mailto:contacto@invi.com"><strong>E-mail</strong> <span>contacto@invi.com</span></a>
+      </div>
+      <form class="formulario">
+        <div class="col1">
+        <label for="nombre">Nombre</label>
+        <input type="text" required id="nombre" name="nombre">
+        <label for="email">E-mail</label>
+        <input type="email" required id="email" name="email">
+        <div class="sexo">
+          <label for="mujer">
+            <input type="radio" checked id="mujer" name="sexo" value="mujer">mujer
+          </label>
+          <label for="hombre">
+            <input type="radio" id="hombre" name="sexo" value="hombre">hombre
+          </label>
+        </div>
+        <div class="intereses">
+          <label for="cotizacion">
+            <input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion"> Cotización
+          </label>
+          <label for="reclamos">
+            <input type="checkbox" id="reclamos" name="intereses" value="Reclamos"> Reclamos
+          </label>
+          <label for="Comentarios">
+            <input type="checkbox" id="comentarios" name="intereses" value="comentarios"> Comentarios
+          </label>
+          <label for="otros">
+            <input type="checkbox" id="otros" name="intereses" value="otros"> Otros
+          </label>
+        </div>
+      </div>
+        <div class="col2">
+          <label for="comentarios">Comentarios</label>
+          <textarea name="comentarios" id="comentarios"rows="7" cols="30"></textarea>
+          <input type="submit" value="Enviar" class="button">
+        </div>
+      </form>
+    </div>
+  </footer>
+  <script type="text/javascript" src="js/app.js">
+
+  </script>
+</body>
+</html>
